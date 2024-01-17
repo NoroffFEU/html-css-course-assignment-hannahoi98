@@ -1,0 +1,159 @@
+
+/* Header */
+
+.header-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Index */
+.index-shop-img {
+  margin-top: 20px;
+}
+
+.index-shop-btn {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.index-shop-img, .index-shop-btn {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.index-jackets {
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-shop-all-btn {
+  display: flex;
+  justify-content: center;
+}
+
+/* Jackets */
+.shop-all-jackets {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+/* Product */
+.h1-ppjacket {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.pp-jacket {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.info-pp-jacket {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jackets-also-like {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* About */
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-about {
+  display: flex;
+  justify-content: center;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+/* Contact */
+.contact-form, .customer-service {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cs-phone, .cs-mail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+/* Newsletter */
+.newsletter {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.newsletter-form {
+  display: flex;
+}
+
+/* Footer */
+.footer-payment-methods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav-socialmedia {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sm-logo {
+  height: 36px;
+  margin: 10px;
+}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
