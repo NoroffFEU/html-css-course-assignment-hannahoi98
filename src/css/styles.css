@@ -26,7 +26,11 @@ body {
   margin-bottom: 20px;
 }
 
-.line2
+.line2 {
+  border-bottom: 2px solid #879997f0;
+  width: 360px;
+}
+
 
 
 /* Header */
@@ -38,6 +42,7 @@ header {
 
 .header-img {
   width: 100%;
+  display: block;
 }
 
 .logo {
@@ -81,20 +86,21 @@ p {
   margin: 5px;
 }
 
-.small, .small-bold {
+.small, .small-bold, .small-jacket, .small-bold-jacket {
   font-size: 1rem;
 }
 
-.small-bold {
+.small-bold, .small-bold-jacket {
   font-weight: bold;
 }
 
-.small {
+.small-jacket {
   margin-bottom: 30px;
 }
 
 .h2-medium {
   font-size: 1.4rem;
+  margin-bottom: 20px;
 }
 
 .medium {
@@ -102,8 +108,14 @@ p {
   line-height: 1.5rem;
 }
 
+.big-bold {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
 /* Text sections */
-.info-pp-jacket {
+.product-info-ppjacket {
   max-width: 460px;
 }
 
@@ -114,13 +126,13 @@ p {
 
 /* Picture styling */
 /* logo appearing in header, newsletter-section and about-page */
-.header-logo, .logo-newsletter, .logo-contact, .logo {
+.header-logo, .logo-contact, .logo {
   max-height: 110px;
   filter: brightness(0%);
 }
 
 /* product pictures of jackets*/
-.img-jackets, .precision-performance-jacket {
+.img-jackets, .img-precision-performance-jacket {
   border: 1px solid #879997f0;
   border-radius: 5px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
@@ -130,26 +142,29 @@ p {
   max-height: 300px;
 }
 
-.precision-performance-jacket {
-  max-width: 526px;
+.img-precision-performance-jacket {
+  max-width: 500px;
 }
   
-/* Decorative pictures on home-, about- and confirmation-page */
+/* Decorative pictures on home- and aboutpage*/
 .index-shop-img {
-  height: 420px;
+  height: 100%;
+  max-height: 420px;
+  width: auto;
   border-radius: 10px;
 }
 
 .img-about {
-  height: 600px;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
   border-radius: 10px;
 }
 
 
 /* Button styling */
-.CTA-shop {
-  width: 420px;
-  height: 46px;
+
+.CTA-shop, .CTA-checkout {
   font-size: 1.2rem;
   font-weight: 500;
   background-color: #f79f1bf0;
@@ -158,8 +173,20 @@ p {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
 }
 
+
+.CTA-shop {
+  width: 420px;
+  height: 46px;
+}
+
+
+.CTA-checkout {
+  width: 200px;
+  height: 46px;
+}
+
 .button-back {
-  height: 20px;
+  height: 26px;
 }
 
 
@@ -174,18 +201,18 @@ p {
   max-width: 480px;
 }
 
-.cs-icon {
+.contact-icon {
   max-height: 40px;
 }
 
-.cs-phone-mail {
+.contact-phone-mail {
   width: 400px;
   height: 180px;
   outline: 1px solid #879997f0;
   border-radius: 5px;
 }
 
-.cs-phone-mail, .cs-contact-form {
+.contact-phone-mail, .contact-form {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
@@ -193,14 +220,14 @@ p {
   gap: 10px;
 }
 
-.cs-contact-form {
+.contact-form {
   width: 400px;
   height: 500px;
   outline: 1px solid #879997f0;
   border-radius: 5px;
 }
 
-.sign-up {
+.btn-signup {
   font-size: 1rem;
   width: 140px;
   height: 40px;
@@ -249,13 +276,13 @@ footer {
 }
 
 .payment-logo {
-  height: 36px;
+  height: 30px;
   margin: 10px;
   filter: brightness(0%);
 }
 
-.logo-about {
-  padding-top: 20px;
+.about-logo {
+  margin-top: 60px;
 }
 
 /* Styling Contact form */
@@ -270,20 +297,40 @@ footer {
 textarea {
   resize: none;
   width: 360px;
-  height: 200px;
-  margin-bottom: 10px;
+  height: 180px;
+  margin-bottom: 16px;
   outline: 1px solid #879997f0;
+}
+
+textarea, input {
+  outline: none;
 }
 
 .contact-form-btn {
   width: 360px;
-  height: 26px;
+  height: 30px;
   background-color: #879997f0;
-  outline: 1px solid black;
-
+  outline: 1px solid #879997;
 }
 
 .sm-logo {
-  height: 36px;
+  height: 30px;
   margin: 10px;
 }
+
+.product-select-size {
+  width: 200px;
+  font-size: 1.25rem;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.hamburger-icon {
+  width: 40px;
+}
+
+.header-hamburger {
+  display: none;
+}
+

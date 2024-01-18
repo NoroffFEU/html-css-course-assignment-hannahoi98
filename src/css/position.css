@@ -27,7 +27,7 @@ nav {
 .index-shop-img, .index-shop-btn {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 3rem;
 }
 
 .index-jackets {
@@ -41,7 +41,7 @@ nav {
 }
 
 /* Jackets */
-.shop-all-jackets {
+.jackets-shop-all {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -49,25 +49,26 @@ nav {
 
 
 /* Product */
-.h1-ppjacket {
+.product-h1 {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-.pp-jacket {
+.product-ppjacket {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 80px;
 }
 
-.info-pp-jacket {
+.product-info-pp-jacket {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.jackets-also-like {
+.product-jackets {
   display: flex;
   justify-content: space-between;
 }
@@ -79,7 +80,7 @@ nav {
   justify-content: space-between;
 }
 
-.logo-about {
+.about-logo {
   display: flex;
   justify-content: center;
 }
@@ -92,7 +93,7 @@ nav {
 
 
 /* Contact */
-.contact-form, .customer-service {
+.contact-form-input, .contact-customerservice {
   display: flex;
   flex-direction: column;
 }
@@ -100,12 +101,13 @@ nav {
 .contact {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.cs-phone, .cs-mail {
+.contact-phone, .contact-mail {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
 }
 
 
@@ -128,13 +130,15 @@ nav {
 }
 
 .footer-nav-socialmedia {
-  padding-left: 100px;
-  padding-right: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
+.product-shop-ppjacket {
+  display: flex;
+  flex-direction: column;
+}
 
 
 

@@ -6,6 +6,7 @@
         <link rel="favicon" />
         <link href="src/css/styles.css" rel="stylesheet"/>
         <link href="src/css/position.css" rel="stylesheet"/>
+        <link href="src/css/mediaqueries.css" rel="stylesheet"/>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale:1.0" />
         <meta name="description" content="add description on page later" />
@@ -13,15 +14,15 @@
 <body>
     <header>
         <div class="header-top">
-            <img src="assets/images/rainydays-logo.png" alt="" class="header-logo"/>
+            <img src="assets/images/rainydays-logo.png" alt="" class="logo">
         </div>
-            <img src="assets/images/header-img.jpg" class="header-img"/>
-            <nav class="header-nav">
-                <a href="jackets.html">Women</a>
-                <a href="jackets.html">Men</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+        <img src="assets/images/header-img.jpg" class="header-img"/>
+        <nav class="header-nav">
+            <a href="#">Home</a>
+            <a href="#">Jackets</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
     </header>
     
     <main>
@@ -36,31 +37,31 @@
                     <p>We are happy to help you with any questions you might have!</p>
                     <p>You can contact our customer service by phone Monday to Friday between 10-18.</p>
                     <p>You can contact us by E-mail or use the contact form and we will get back to you within 2 businessdays. </p>
+                </section>
             </div>
 
-
-            <div class="customer-service">
+            <div class="contact-customerservice">
                 <section>
-                    <div class="cs-phone-mail">
+                    <div class="contact-phone-mail">
                         <h2 class="h2-medium">Customer Service</h2>
                         <div class="line2"></div>
-                        <div class="cs-phone">
-                            <img src="assets/images/telephone.png" alt="" class="cs-icon" />
+                        <div class="contact-phone">
+                            <img src="assets/images/telephone.png" alt="" class="contact-icon" />
                             <p>+47 91 00 00 02</p>
                         </div>
-                        <div class="cs-mail">
-                            <img src="assets/images/mail.png" alt="" class="cs-icon" />
+                        <div class="contact-mail">
+                            <img src="assets/images/mail.png" alt="" class="contact-icon" />
                             <p>rainydays@support.com</p>
                         </div>
                     </div>
                 </section>
 
                 <section>
-                    <div class="cs-contact-form">
+                    <div class="contact-form">
                         <h2 class="h2-medium">Contact form</h2>
-                        <div class="line1"></div>
+                        <div class="line2"></div>
 
-                        <form class="contact-form">
+                        <form class="contact-form-input">
                             <label for="name">Name</label>
                             <input class="contact-form-small" type="text" id="name" name="name" />
 
@@ -74,7 +75,6 @@
                             <textarea class="contact-form-big" id="issue" name="issue"></textarea>
 
                             <button class="contact-form-btn">Send</button>
-
                         </form>
                     </div>
                 </section>

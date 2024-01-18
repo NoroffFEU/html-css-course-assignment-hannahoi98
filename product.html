@@ -6,6 +6,7 @@
         <link rel="favicon" />
         <link href="src/css/styles.css" rel="stylesheet" />
         <link href="src/css/position.css" rel="stylesheet" />
+        <link href="src/css/mediaqueries.css" rel="stylesheet" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale:1.0" />
         <meta name="description" content="add description on page later" />
@@ -24,38 +25,38 @@
             </nav>
     </header>
     <main>
-        <div class="wrapper">
-        <div class="h1-ppjacket">
-        <h1>Precision Performance Jacket</h1>
-        <button class="button-back">Back to all jackets</button>
+    <div class="wrapper">
+
+        <div class="product-h1">
+            <h1>Precision Performance Jacket</h1>
+            <button class="button-back">Back to all jackets</button>
         </div>
         <div class="line1"></div>
 
         <section>
-            <div class="pp-jacket">
-                <div class="img-pp-jacket">
-                <img src="assets/images/rainydays-jacket4.jpg" alt="" class="precision-performance-jacket" />
+            <div class="product-ppjacket">
+                <div class="product-ppjacket-img">
+                    <img src="assets/images/rainydays-jacket4.jpg" alt="" class="img-precision-performance-jacket" />
                 </div>
 
-                <div class="info-pp-jacket">
-                    <div class="p-info-pp-jacket">
+                <div class="product-info-ppjacket">
+                    <div class="product-info-ppjacket-text">
                         <p>Introducing our Precision Performance Jacket - a fusion of style and function for the modern athlete. </p>
                         <p>This sleek jacket combines innovative insulation, weather resistance, and thoughtful design, offering comfort without compromising on style. With breathable features, ample storage, and reflective details, it's the perfect companion for winter workouts and beyond. </p>
                         <p>Elevate your winter wardrobe with confidence and conquer the cold in the Precision Performance Jacket. </p>
-                        <p>230 $</p>
+                        <p class="big-bold">230 $</p>
                     </div>
-
                 
-                    <div class="shop-info-pp-jacket">
-                        <label for="sizes">Choose your size</label>
-                        <select name="sizes" id="sizes">
-                            <option value="X-small">X-small</option>
-                            <option value="Small">Small</option>
-                            <option value="Medium">Medium</option>
-                            <option value="Large">Large</option>
-                            <option value="X-large">X-large</option>
+                    <div class="product-shop-ppjacket">
+                        <select class="product-select-size" id="sizes" name="sizes">
+                            <option value="0">Choose size</option>
+                            <option value="1">X-small</option>
+                            <option value="2">Small</option>
+                            <option value="3">Medium</option>
+                            <option value="4">Large</option>
+                            <option value="5">X-large</option>
                         </select>
-                        <button class="CTA-shop">Express checkout</button>
+                        <button class="CTA-checkout">Express checkout</button>
                     </div>
                 </div>
             </div>
@@ -65,23 +66,23 @@
             <h2>You might also like...</h2>
             <div class="line1"></div>
 
-            <div class="jackets-also-like">
+            <div class="product-jackets">
                 <div class="jackets-with-price">
                     <img src="assets/images/rainydays-jacket5.jpg" alt="" class="img-jackets" />
-                    <p class="small-bold">Everyday lightweight jacket</p>
-                    <p class="small">160 $</p>
+                    <p class="small-bold-jacket">Everyday lightweight jacket</p>
+                    <p class="small-jacket">160 $</p>
                 </div>
 
                 <div class="jackets-with-price">
                     <img src="assets/images/rainydays-jacket3.jpg" alt="" class="img-jackets" />
-                    <p class="small-bold">Lightweight Sports jacket</p>
-                    <p class="small">165 $</p>
+                    <p class="small-bold-jacket">Lightweight Sports jacket</p>
+                    <p class="small-jacket">165 $</p>
                 </div>
 
                 <div class="jackets-with-price">
                     <img src="assets/images/rainydays-jacket1.jpg" alt="" class="img-jackets" />
-                    <p class="small-bold">Snowdrifter Adventure Jacket</p>
-                    <p class="small">280 $</p>
+                    <p class="small-bold-jacket">Snowdrifter Adventure Jacket</p>
+                    <p class="small-jacket">280 $</p>
                 </div>
             </div>
         </section>
@@ -90,21 +91,21 @@
             <div class="line-newsletter"></div>
                 <div class="newsletter">
                     <div class="newsletter-logo">
-                        <img src="assets/images/rainydays-logo.png" class="logo-newsletter" />
+                        <img src="assets/images/rainydays-logo.png" class="logo" alt="" />
                     </div>
                     <div class="newsletter-text-form">
                         <p class="small-bold">Ready for your next adventure?</p>
                         <p class="small">Sign up for our newsletter and get 20% off your next purchase.</p>
                         <form class="newsletter-form">
                             <input class= newsletter-input type="email" id="email" name="email" placeholder="E-mail" />
-                            <button class="sign-up">Sign Up</button>
+                            <button class="btn-signup">Sign Up</button>
                         </form>
                     </div>
                 </div>
             </section>
             
-        </div>
-        </main>
+    </div>
+    </main>
         <footer>
            <div class="footer-nav-socialmedia">
                 <nav class="footer-nav">

@@ -1,0 +1,213 @@
+
+
+/*mobile to small tablet */
+@media screen and (min-width: 300px) and (max-width: 600px){
+
+    .header-top {
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .logo {
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    .wrapper {
+        max-width: 600px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .index-shop-img {
+        height: 150px;
+    }
+
+    .img-jackets {
+        max-height: 190px;
+        height: 100%;
+        width: auto;
+    }
+
+    .index-jackets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .CTA-shop {
+        width: 150px;
+        height: 30px;
+        font-size: 1rem;
+    }
+
+    .product-info-ppjacket {
+        max-width: 360px;
+    }
+
+    .product-pp-jacket {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-precision-performance-jacket {
+        max-width: 400px;
+    }
+
+    .small-bold-jacket, .small-jacket {
+        max-width: 160px;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    .newsletter {
+        gap: 30px;
+    }
+
+   .footer-nav {
+    gap: 30px
+   }
+
+   .sm-logo {
+    height: 26px;
+   }
+
+   .img-about {
+    min-width: 280px;
+    align-self: center;
+   }
+
+   .h2-medium {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+   }
+
+   .medium {
+    font-size: 0.8rem;
+    line-height: 1rem;
+   }
+
+   .contact-text {
+    max-width: 326px;
+   }
+
+   .about {
+    gap: 10px;
+   }
+
+   .newsletter {
+    display: flex;
+    flex-direction: column;
+   }
+
+
+}
+
+/*tablet and small laptops*/
+@media screen and (min-width: 601px) and (max-width: 1023px){
+    .wrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .index-shop-img {
+        height: 250px;
+    }
+
+    .img-jackets {
+        max-height: 190px;
+        height: 100%;
+        width: auto;
+    }
+
+    .CTA-shop {
+        width: 250px;
+        height: 36px;
+    }
+
+    .logo {
+        max-height: 70px;
+        width: 100%;
+        width: auto;
+    }
+
+    .product-info-ppjacket {
+        max-width: 360px;
+    }
+
+    .product-pp-jacket {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-precision-performance-jacket {
+        max-width: 400px;
+    }
+
+    .small-bold-jacket, .small-jacket {
+        max-width: 160px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .newsletter {
+        gap: 30px;
+    }
+
+   .footer-nav {
+    gap: 30px
+   }
+
+   .sm-logo {
+    height: 26px;
+   }
+
+   .img-about {
+    min-width: 280px;
+    align-self: center;
+   }
+
+   .h2-medium {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+   }
+
+   .medium {
+    font-size: 0.8rem;
+    line-height: 1rem;
+   }
+
+   .contact-text {
+    max-width: 326px;
+   }
+
+   .about {
+    gap: 10px;
+   }
+    
+}
+
+
+
+/* Font sizing */
+
+
+
+/* Picture sizing */
+
+/* Newsletter sizing */
+
+
