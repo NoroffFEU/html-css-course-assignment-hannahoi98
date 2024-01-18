@@ -2,7 +2,7 @@
 
 /*mobile to small tablet */
 @media screen and (min-width: 300px) and (max-width: 600px){
-
+/* Header */
     .header-nav {
         display: none;
     }
@@ -18,19 +18,17 @@
         margin-left: 10px;
     }
 
+/* General styling */
     .wrapper {
         max-width: 600px;
         margin-left: 10px;
         margin-right: 10px;
     }
 
+/* Index (with some shared flexbox of productpage */
+
     .index-shop-img {
         height: 140px;
-    }
-
-    .img-jackets {
-        height: auto;
-        width: 180px;
     }
 
     .index-jackets, .product-jackets {
@@ -39,13 +37,21 @@
         align-items: center;
     }
 
-    .CTA-shop {
-        width: 140px;
-        height: 30px;
-        font-size: 1rem;
+
+/* Jackets */
+    .img-jackets {
+        height: auto;
+        width: 180px;
     }
 
-    
+    .jackets-shop-all {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+
+
+/* Product */
     .product-pp-jacket {
         display: flex;
         justify-content: center;
@@ -57,102 +63,37 @@
         height: auto;
     }
 
-    .small-bold-jacket, .small-jacket {
-        max-width: 160px;
-    }
-
-    p {
-        font-size: 0.9rem;
-    }
-
-    h1, h2 {
-        font-size: 1.4rem;
-    }
-
     .product-h1 {
         display: flex;
         flex-wrap: wrap;
         gap: 6px;
     }
 
-
-    .newsletter {
-        gap: 20px;
-    }
-
-   .footer-nav {
-    gap: 10px
-   }
-
-   .sm-logo {
-    height: 24px;
-   }
-
-   .img-about {
-    min-width: 280px;
-    align-self: center;
-   }
-
-   .h2-medium {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-   }
-
-   .medium {
-    font-size: 0.8rem;
-    line-height: 1rem;
-   }
-
-   .contact-text {
-    max-width: 326px;
-   }
-
-   .about {
-    gap: 10px;
-   }
-
-   .newsletter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   }
-
-   .newsletter-mobile {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-   }
-
-   .footer-nav-socialmedia {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   }
-
-   .newsletter-input {
-    width: 200px;
-    height: 30px;
-    }
-
-    .btn-signup {
-        width: 90px;
-        height: 30px;
-    }
-
-    .payment-logo {
-        height: 24px;
-    }
-
-    .jackets-shop-all {
-        display: flex;
-        flex-direction: column;
-        align-items: center;   
-    }
-
     .button-back {
         font-size: 0.8rem;
         height: 20px;
         margin-bottom: 6px;
+    }
+
+/* About */
+    .img-about {
+        min-width: 280px;
+        align-self: center;
+    }
+
+    .about {
+        gap: 10px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+/* Contact */
+    .contact-text {
+        max-width: 326px;
     }
 
     .contact-phone-mail, .contact-form {
@@ -166,32 +107,95 @@
     .contact-form-btn, .contact-form-small, textarea  {
         width: 260px;
     }
-
-    .about {
-        display: flex;
-        flex-direction: column;
+    
+    
+/* Buttons */
+    .CTA-shop {
+        width: 140px;
+        height: 30px;
+        font-size: 1rem;
     }
 
 
+/* Font sizing */
+    p {
+        font-size: 0.9rem;
+    }
+
+    h1, h2 {
+        font-size: 1.4rem;
+    }
+
+    .small-bold-jacket, .small-jacket {
+        max-width: 160px;
+    }
+
+    .h2-medium {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+       }
+    
+    .medium {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
 
 
+/* newsletter */
+    .newsletter {
+        gap: 20px;
+    }
+
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .newsletter-mobile {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .newsletter-input {
+        width: 200px;
+        height: 30px;
+    }
+
+    .btn-signup {
+        width: 90px;
+        height: 30px;
+    }
+
+
+/* footer */
+   .footer-nav {
+        gap: 10px
+   }
+
+   .sm-logo {
+        height: 24px;
+   }
+
+   .footer-nav-socialmedia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+    .payment-logo {
+        height: 24px;
+    }
 }
 
 /*tablet and small laptops*/
 @media screen and (min-width: 601px) and (max-width: 1023px){
+    
+/* General styling */
     .wrapper {
         margin-left: 20px;
         margin-right: 20px;
-    }
-
-    .index-shop-img {
-        height: 250px;
-    }
-
-    .img-jackets {
-        max-height: 190px;
-        height: 100%;
-        width: auto;
     }
 
     .CTA-shop {
@@ -205,6 +209,39 @@
         width: auto;
     }
 
+/* Index */
+    .index-shop-img {
+        height: 250px;
+    }
+
+
+/* Jackets */
+    .img-jackets {
+        max-height: 190px;
+        height: 100%;
+        width: auto;
+    }
+
+/* Font-sizing */
+    .small-bold-jacket, .small-jacket {
+        max-width: 160px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .h2-medium {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+    
+    .medium {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+/* Product */
     .product-info-ppjacket {
         max-width: 360px;
     }
@@ -218,59 +255,33 @@
         max-width: 400px;
     }
 
-    .small-bold-jacket, .small-jacket {
-        max-width: 160px;
+/* About */
+    .about {
+        gap: 10px;
     }
 
-    p {
-        font-size: 1rem;
+    .img-about {
+        min-width: 280px;
+        align-self: center;
     }
 
+/* Contact */
+    .contact-text {
+        max-width: 326px;
+    }
+
+/* Newsletter */
     .newsletter {
         gap: 30px;
     }
 
-   .footer-nav {
-    gap: 30px
-   }
+/* Footer */
+    .footer-nav {
+        gap: 30px
+    }
 
-   .sm-logo {
-    height: 26px;
-   }
-
-   .img-about {
-    min-width: 280px;
-    align-self: center;
-   }
-
-   .h2-medium {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-   }
-
-   .medium {
-    font-size: 0.8rem;
-    line-height: 1rem;
-   }
-
-   .contact-text {
-    max-width: 326px;
-   }
-
-   .about {
-    gap: 10px;
-   }
-    
+    .sm-logo {
+        height: 26px;
+    }
 }
-
-
-
-/* Font sizing */
-
-
-
-/* Picture sizing */
-
-/* Newsletter sizing */
-
 
