@@ -60,10 +60,14 @@ header {
   height: 90px;
 }
 
-
 nav a {
   text-decoration: none;
   font-size: 1.5rem;
+  color: black;
+}
+
+a {
+  text-decoration: none;
   color: black;
 }
 
@@ -90,7 +94,7 @@ p {
   font-size: 1rem;
 }
 
-.small-bold, .small-bold-jacket {
+.small-bold, .small-bold-jacket, .bold {
   font-weight: bold;
 }
 
@@ -114,11 +118,8 @@ p {
   margin-top: 1rem;
 }
 
-/* Text sections */
-.product-info-ppjacket {
-  max-width: 460px;
-}
 
+/* Text sections */
 .about-text {
   max-width: 450px; 
 }
@@ -132,19 +133,17 @@ p {
 }
 
 /* product pictures of jackets*/
-.img-jackets, .img-precision-performance-jacket {
+.img-jackets, .img-jackets-small {
   border: 1px solid #879997f0;
   border-radius: 5px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
 }
 
-.img-jackets {
+.img-jackets, .img-jackets-small {
   max-height: 300px;
 }
 
-.img-precision-performance-jacket {
-  max-width: 500px;
-}
+
   
 /* Decorative pictures on home- and aboutpage*/
 .index-shop-img {
@@ -164,29 +163,15 @@ p {
 
 /* Button styling */
 
-.CTA-shop, .CTA-checkout {
+.CTA-shop {
+  width: 420px;
+  height: 46px;
   font-size: 1.2rem;
   font-weight: 500;
   background-color: #f79f1bf0;
   border-radius: 10px;
   border: 2px solid #F79E1B;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
-}
-
-
-.CTA-shop {
-  width: 420px;
-  height: 46px;
-}
-
-
-.CTA-checkout {
-  width: 200px;
-  height: 46px;
-}
-
-.button-back {
-  height: 26px;
 }
 
 
@@ -252,6 +237,12 @@ p {
   margin-left: 5px;
 }
 
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+}
+
+
 
 /* Footer */
 footer {
@@ -285,6 +276,11 @@ footer {
   margin-top: 60px;
 }
 
+.sm-logo {
+  height: 30px;
+  margin: 10px;
+}
+
 /* Styling Contact form */
 
 .contact-form-small {
@@ -313,26 +309,6 @@ textarea, input {
   outline: 1px solid #879997;
 }
 
-.sm-logo {
-  height: 30px;
-  margin: 10px;
-}
-
-.product-select-size {
-  width: 200px;
-  font-size: 1.25rem;
-  background-color: white;
-  margin-top: 40px;
-  margin-bottom: 10px;
-}
-
-.hamburger-icon {
-  width: 40px;
-}
-
-.header-hamburger {
-  display: none;
-}
 
 
 

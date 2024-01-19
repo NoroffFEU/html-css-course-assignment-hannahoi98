@@ -31,7 +31,7 @@
         height: 140px;
     }
 
-    .index-jackets, .product-jackets {
+    .index-jackets {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -51,30 +51,6 @@
     }
 
 
-/* Product */
-    .product-pp-jacket {
-        display: flex;
-        justify-content: center;
-    }
-
-    .img-precision-performance-jacket {
-        width: 100%;
-        max-width: 580px;
-        height: auto;
-    }
-
-    .product-h1 {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-    }
-
-    .button-back {
-        font-size: 0.8rem;
-        height: 20px;
-        margin-bottom: 6px;
-    }
-
 /* About */
     .img-about {
         min-width: 280px;
@@ -92,8 +68,12 @@
 
 
 /* Contact */
+    .contact {
+        justify-content: center;
+    }
+
     .contact-text {
-        max-width: 326px;
+        max-width: 280px;
     }
 
     .contact-phone-mail, .contact-form {
@@ -189,6 +169,8 @@
     }
 }
 
+
+
 /*tablet and small laptops*/
 @media screen and (min-width: 601px) and (max-width: 1023px){
     
@@ -212,15 +194,24 @@
 /* Index */
     .index-shop-img {
         height: 250px;
+        width: auto;
     }
 
 
 /* Jackets */
-    .img-jackets {
-        max-height: 190px;
-        height: 100%;
+
+    .img-jackets-small, .img-jackets {
+        height: 190px;
         width: auto;
     }
+
+    .jackets-shop-all {
+        max-width: 700px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
 
 /* Font-sizing */
     .small-bold-jacket, .small-jacket {
@@ -240,20 +231,7 @@
         font-size: 0.8rem;
         line-height: 1rem;
     }
-
-/* Product */
-    .product-info-ppjacket {
-        max-width: 360px;
-    }
-
-    .product-pp-jacket {
-        display: flex;
-        justify-content: center;
-    }
-
-    .img-precision-performance-jacket {
-        max-width: 400px;
-    }
+    
 
 /* About */
     .about {

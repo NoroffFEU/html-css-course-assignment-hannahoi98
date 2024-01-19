@@ -48,32 +48,6 @@ nav {
 }
 
 
-/* Product */
-.product-h1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-}
-
-.product-ppjacket {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 80px;
-}
-
-.product-info-pp-jacket {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.product-jackets {
-  display: flex;
-  justify-content: space-between;
-}
-
-
 /* About */
 .about {
   display: flex;
