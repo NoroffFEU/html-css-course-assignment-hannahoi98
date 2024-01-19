@@ -234,13 +234,19 @@ p {
 
 .newsletter-form {
   margin-top: 20px;
-  margin-left: 5px;
 }
 
-.newsletter-form {
+.newsletter-text-form {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
+
+.newsletter {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
 
 
 
