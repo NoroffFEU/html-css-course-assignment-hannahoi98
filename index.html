@@ -13,10 +13,24 @@
     </head> 
 <body>
     <header>
-        <div class="header-desktop">
         <div class="header-top">
             <img src="./assets/images/rainydays-logo.png" class="logo" alt="The logo for Rainydays with the text Rainydays - Pushing the comfort zone with the outline of mounatins in the back" />
+        
+
+        <div class="header-hamburger">
+            <label class="ham-btn" for="hamburger"><img src="./assets/images/hamburger.png" alt="" class="hamburger-icon" /></label>
+            <input id="hamburger" name="hambuger" type="checkbox" hidden />
+            <div class="hamburger-nav">
+                <nav class="header-hamburger-nav">
+                <a href="./index.html">Home</a>
+                <a href="./html/jackets.html">Jackets</a>
+                <a href="./html/about.html">About</a>
+                <a href="./html/contact.html">Contact</a>
+                </nav>
+            </div>
         </div>
+        </div>
+
         <img src="./assets/images/header-img.jpg" class="header-img" alt="A picture of a person hiking on a rocky trail amidst majestic mountains" />
         <nav class="header-nav">
             <a href="./index.html">Home</a>
@@ -24,7 +38,7 @@
             <a href="./html/about.html">About</a>
             <a href="./html/contact.html">Contact</a>
         </nav>
-        </div>
+
     </header>
     <main>
     <div class="wrapper">
@@ -37,13 +51,16 @@
         </section>
 
         <section>
-            <div class="index-shop-img">
+            <div class="index-shop-women-men">
+            <div class="index-shop-women">
                 <img src="./assets/images/shop-women.jpg"  class="index-shop-img" alt="A woman sitting on a rock with her backpack, enjoying the breathtaking view of mountains from the top."/>
-                <img src="./assets/images/shop-men.jpg"  class="index-shop-img" alt="A man that stands in front of a glistening glacier, outfitted with a backpack and a climbing equipment."/>
-            </div>
-            <div class="index-shop-btn">
                 <a href="./html/jackets.html"><button class="CTA-shop">Shop Women</button></a>
+            </div>
+
+            <div class="index-shop-men">
+                <img src="./assets/images/shop-men.jpg"  class="index-shop-img" alt="A man that stands in front of a glistening glacier, outfitted with a backpack and a climbing equipment."/>
                 <a href="./html/jackets.html"><button class="CTA-shop">Shop Men</button></a>
+            </div>
             </div>
         </section>
 

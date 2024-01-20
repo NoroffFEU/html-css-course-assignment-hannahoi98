@@ -3,14 +3,42 @@
 /*mobile to small tablet */
 @media screen and (min-width: 300px) and (max-width: 600px){
 /* Header */
-    .header-nav {
-        display: none;
-    }
+.header-nav {
+    display: none;
+}
+
+.hamburger-icon {
+    height: 40px;
+    display: block;
+    
+  }
+  
+  .hamburger-check {
+    display: none;
+  }
+  
+  .hamburger-nav {
+    display: none;
+    overflow: hidden;
+  }
+  
+  .header-hamburger {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .header-mobile {
+    background-color: #879997f0;
+    width: 100%;
+  }
 
     .header-top {
         height: 60px;
         display: flex;
         justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .logo {
@@ -26,9 +54,14 @@
     }
 
 /* Index (with some shared flexbox of productpage */
-
     .index-shop-img {
-        height: 140px;
+        height: 180px;
+        width: auto;
+    }
+
+    .index-shop-women-men {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .index-jackets {
@@ -39,7 +72,7 @@
 
 
 /* Jackets */
-    .img-jackets {
+    .img-jackets-small {
         height: auto;
         width: 180px;
     }
@@ -91,7 +124,7 @@
     
 /* Buttons */
     .CTA-shop {
-        width: 140px;
+        width: 180px;
         height: 30px;
         font-size: 1rem;
     }
@@ -124,20 +157,17 @@
 /* newsletter */
     .newsletter {
         gap: 20px;
+        margin: auto;
     }
 
     .newsletter {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column-reverse;
+        align-content: center;
+        max-width: 300px;
     }
     
-    .newsletter-mobile {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-
+    
     .newsletter-input {
         width: 200px;
         height: 30px;
@@ -151,7 +181,7 @@
 
 /* footer */
    .footer-nav {
-        gap: 10px
+        gap: 1rem;
    }
 
    .sm-logo {
