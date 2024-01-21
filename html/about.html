@@ -9,14 +9,27 @@
         <link href="../src/css/mediaqueries.css" rel="stylesheet" />
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale:1.0" />
-        <meta name="description" content="add description on page later" />
+        <meta name="description" content="Discover the heart and soul of Rainydays on our About page. We are more than just a webshop – we are a passionate community of outdoor enthusiasts committed to pushing the comfort zone.Get to know us better and become part of our exciting narrative" />
     </head>
 <body>
     <header>
-        <div class="header-desktop">
         <div class="header-top">
-            <img src="../assets/images/rainydays-logo.png" class="logo" alt="The logo for Rainydays with the text Rainydays - Pushing the comfort zone with the outline of mounatins in the back" />
+            <img src="./assets/images/rainydays-logo.png" class="logo" alt="The logo for Rainydays with the text Rainydays - Pushing the comfort zone with the outline of mounatins in the back" />
+
+        <div class="header-hamburger">
+            <label class="ham-btn" for="hamburger"><img src="./assets/images/hamburger.png" class="hamburger-icon" alt="Icon of a hamburger-icon that opens navigationmenu on mobile devices" /></label>
+            <input id="hamburger" name="hambuger" type="checkbox" hidden />
+            <div class="hamburger-nav">
+                <nav class="header-hamburger-nav">
+                <a href="../index.html">Home</a>
+                <a href="./jackets.html">Jackets</a>
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+                </nav>
+            </div>
         </div>
+        </div>
+        
         <img src="../assets/images/header-img.jpg" class="header-img" alt="A picture of a person hiking on a rocky trail amidst majestic mountains" />
         <nav class="header-nav">
             <a href="../index.html">Home</a>
@@ -24,7 +37,6 @@
             <a href="./about.html">About</a>
             <a href="./contact.html">Contact</a>
         </nav>
-        </div>
     </header>
     <main>
     <div class="wrapper">
@@ -59,6 +71,7 @@
         </div>
     </div>
     </main>
+
     <footer>
         <div class="footer-nav-socialmedia">
             <nav class="footer-nav">
@@ -67,18 +80,19 @@
                 <a href="./about.html">About</a>
                 <a href="./contact.html">Contact</a>
             </nav>
+
              <div class="footer-socialmedia">
-                 <img src="../assets/images/facebook-logo.png" class="sm-logo" />
-                 <img src="../assets/images/instagram-logo.png" class="sm-logo"/>
-                 <img src="../assets/images/youtube-logo.png" class="sm-logo"/>
+                 <img src="../assets/images/facebook-logo.png" class="sm-logo" alt="Logo for facebook"/>
+                 <img src="../assets/images/instagram-logo.png" class="sm-logo" alt="Logo for instagram"/>
+                 <img src="../assets/images/youtube-logo.png" class="sm-logo" alt="Logo for youtube"/>
              </div>
         </div>
  
         <div class="footer-payment-methods">
-            <img src="../assets/images/cc-apple-pay.svg" class="payment-logo" />
-            <img src="../assets/images/cc-mastercard.svg" class="payment-logo" />
-            <img src="../assets/images/cc-visa.svg" class="payment-logo" />
-            <img src="../assets/images/google-pay.svg" class="payment-logo"  />
+            <img src="../assets/images/cc-apple-pay.svg" class="payment-logo" alt="Logo for apple pay" />
+            <img src="../assets/images/cc-mastercard.svg" class="payment-logo" alt="Logo for mastercard" />
+            <img src="../assets/images/cc-visa.svg" class="payment-logo" alt="Logo for visa"/>
+            <img src="../assets/images/google-pay.svg" class="payment-logo" alt="Logo for google pay" />
         </div>    
      </footer>
  </body>  
