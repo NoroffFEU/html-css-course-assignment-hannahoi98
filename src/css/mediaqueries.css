@@ -7,201 +7,191 @@
     display: none;
 }
 
+.header-mobile {
+    background-color: #879997f0;
+    width: 100%;
+}
+
 .hamburger-icon {
-    height: 40px;
     display: block;
-    
-  }
+}
   
-  .hamburger-check {
-    display: none;
-  }
-  
-  .hamburger-nav {
-    display: none;
-    overflow: hidden;
-  }
-  
-  .header-hamburger {
+.header-hamburger {
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
+}
 
-  .header-mobile {
-    background-color: #879997f0;
-    width: 100%;
-  }
+.header-top {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-    .header-top {
-        height: 60px;
-        display: flex;
-        justify-content: space-between;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
 
-    .logo {
-        height: 50px;
-        margin-left: 10px;
-    }
-
-    nav a {
-        font-size: 1rem;
-    }
+nav a {
+    font-size: 1rem;
+}
 
 
 /* General styling */
-    .wrapper {
-        max-width: 600px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+.wrapper {
+    max-width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 
 /* Index (with some shared flexbox of productpage */
-    .index-shop-img {
-        height: 180px;
-        width: auto;
-    }
+.index-shop-img {
+    height: 180px;
+    width: auto;
+}
 
-    .index-shop-women-men {
-        display: flex;
-        flex-wrap: wrap;
-    }
+.index-shop-women-men {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-    .index-jackets {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+.index-jackets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 /* Jackets */
-    .img-jackets-small {
-        height: auto;
-        width: 180px;
-    }
+.img-jackets-small {
+    height: auto;
+    width: 180px;
+}
 
-    .jackets-shop-all {
-        display: flex;
-        flex-direction: column;
-        align-items: center;   
-    }
+.jackets-shop-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
 
 
 /* About */
-    .img-about {
-        min-width: 280px;
-        align-self: center;
-    }
+.img-about {
+    min-width: 280px;
+    align-self: center;
+}
 
-    .about {
-        gap: 10px;
-    }
+.about {
+    gap: 10px;
+}
 
-    .about {
-        display: flex;
-        flex-direction: column;
-    }
+.about {
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* Contact */
-    .contact {
-        justify-content: center;
-    }
+.contact {
+    justify-content: center;
+}
 
-    .contact-text {
-        max-width: 280px;
-    }
+.contact-text {
+    max-width: 280px;
+}
 
-    .contact-phone-mail, .contact-form {
-        width: 280px;
-    }
+.contact-phone-mail, .contact-form {
+    width: 280px;
+}
 
-    .line2 {
-        width: 260px;
-    }
+.line2 {
+    width: 260px;
+}
 
-    .contact-form-btn, .contact-form-small, textarea  {
-        width: 260px;
-    }
+.contact-form-btn, .contact-form-small, textarea  {
+    width: 260px;
+}
     
     
 /* Buttons */
-    .CTA-shop {
-        width: 180px;
-        height: 30px;
-        font-size: 1rem;
-    }
+.CTA-shop {
+    width: 180px;
+    height: 20px;
+    font-size: 1rem;
+    padding-top: 2px;
+}
 
 
 /* Font sizing */
-    p {
-        font-size: 0.9rem;
-    }
+p {
+    font-size: 0.9rem;
+}
 
-    h1, h2 {
-        font-size: 1.4rem;
-    }
+h1, h2 {
+    font-size: 1.4rem;
+}
 
-    .small-bold-jacket, .small-jacket {
-        max-width: 160px;
-    }
+.small-bold-jacket, .small-jacket {
+    max-width: 160px;
+}
 
-    .h2-medium {
-        font-size: 1.2rem;
-        margin-bottom: 10px;
-       }
+.h2-medium {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
     
-    .medium {
-        font-size: 0.8rem;
-        line-height: 1rem;
-    }
+.medium {
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
 
 
 /* newsletter */
-    .newsletter {
-        gap: 20px;
-        margin: auto;
-    }
+.newsletter {
+    gap: 20px;
+    margin: auto;
+}
 
-    .newsletter {
-        display: flex;
-        flex-direction: column-reverse;
-        align-content: center;
-        max-width: 300px;
-    }
+.newsletter {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    max-width: 300px;
+}
     
-    
-    .newsletter-input {
-        width: 200px;
-        height: 30px;
-    }
+.newsletter-input {
+    width: 200px;
+    height: 30px;
+}
 
-    .btn-signup {
-        width: 90px;
-        height: 32px;
-    }
+.btn-signup {
+    width: 90px;
+    height: 32px;
+}
 
 
 /* footer */
-   .footer-nav {
-        gap: 1rem;
-   }
+.footer-nav {
+    gap: 1rem;
+}
 
-   .sm-logo {
-        height: 24px;
-   }
+.sm-logo {
+    height: 24px;
+}
 
-   .footer-nav-socialmedia {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-   }
+.footer-nav-socialmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .payment-logo {
-        height: 24px;
-    }
+.payment-logo {
+    height: 24px;
+}
 }
 
 
@@ -210,91 +200,94 @@
 @media screen and (min-width: 601px) and (max-width: 1023px){
     
 /* General styling */
-    .wrapper {
-        margin-left: 20px;
-        margin-right: 20px;
+.wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.CTA-shop {
+    width: 250px;
+    height: 24px;
+    padding-top: 6px;
     }
 
-    .CTA-shop {
-        width: 250px;
-        height: 36px;
-    }
+.logo {
+    max-height: 70px;
+    width: 100%;
+    width: auto;
+}
 
-    .logo {
-        max-height: 70px;
-        width: 100%;
-        width: auto;
-    }
 
 /* Index */
-    .index-shop-img {
-        height: 250px;
-        width: auto;
-    }
+.index-shop-img {
+    height: 250px;
+    width: auto;
+}
 
 
 /* Jackets */
+.img-jackets-small, .img-jackets {
+    height: 190px;
+    width: auto;
+}
 
-    .img-jackets-small, .img-jackets {
-        height: 190px;
-        width: auto;
-    }
-
-    .jackets-shop-all {
-        max-width: 700px;
-        display: flex;
-        justify-content: space-between;
-    }
-
+.jackets-shop-all {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* Font-sizing */
-    .small-bold-jacket, .small-jacket {
-        max-width: 160px;
-    }
+.small-bold-jacket, .small-jacket {
+    max-width: 160px;
+}
 
-    p {
-        font-size: 1rem;
-    }
+p {
+    font-size: 1rem;
+}
 
-    .h2-medium {
-        font-size: 1.2rem;
-        margin-bottom: 10px;
-    }
+.h2-medium {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
     
-    .medium {
-        font-size: 0.8rem;
-        line-height: 1rem;
-    }
+.medium {
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
     
 
 /* About */
-    .about {
-        gap: 10px;
-    }
+.about {
+    gap: 10px;
+}
 
-    .img-about {
-        min-width: 280px;
-        align-self: center;
-    }
+.img-about {
+    min-width: 280px;
+    align-self: center;
+}
+
 
 /* Contact */
-    .contact-text {
-        max-width: 326px;
-    }
+.contact-text {
+    max-width: 326px;
+}
+
 
 /* Newsletter */
-    .newsletter {
-        gap: 30px;
-    }
+.newsletter {
+    gap: 30px;
+}
+
 
 /* Footer */
-    .footer-nav {
-        gap: 30px
-    }
+.footer-nav {
+    gap: 30px
+}
 
-    .sm-logo {
-        height: 26px;
-    }
+.sm-logo {
+    height: 26px;
+}
 }
 

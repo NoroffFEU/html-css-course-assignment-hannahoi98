@@ -62,8 +62,8 @@ nav a {
 }
 
 nav a, a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -196,7 +196,7 @@ p {
 /* Button styling */
 .CTA-shop {
     width: 420px;
-    height: 46px;
+    height: 30px;
     font-size: 1.2rem;
     font-weight: 500;
     color: black;
@@ -204,6 +204,9 @@ p {
     border-radius: 10px;
     border: 2px solid #F79E1B;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
+    text-align: center;
+    font-weight: bold;
+    padding-top: 12px;
 }
 
 
