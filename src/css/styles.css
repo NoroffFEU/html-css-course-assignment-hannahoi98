@@ -1,386 +1,323 @@
-/* Stylesheet forstyling */
+/* Stylesheet for styling */
 
 /* General styling */
 @import url(https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap);
 
 body {
-  background-color: #f3f3f3;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  margin: 0 auto;
-  color: black;
+    background-color: #f3f3f3;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin: 0 auto;
+    color: black;
 }
 
 .wrapper {
-  max-width: 1000px;
-  margin: 0 auto;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.line1, .line2, .line-newsletter {
+    border-bottom: 2px solid #879997f0;
 }
 
 .line1 {
-  border-bottom: 2px solid #879997f0;
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .line2 {
-  border-bottom: 2px solid #879997f0;
-  width: 360px;
+    width: 360px;
 }
-
-/* Hamburger-menu */
-.header-hamburger {
-  display: none;
-}
-
-#hamburger {
-  display: none;
-  overflow: hidden;
-}
-
-.hamburger-nav {
-  display: none;
-  overflow: hidden;
-}
-
-.hamburger-nav {
-  font-size: 1rem;
-}
-
-#hamburger[type="checkbox"]:checked~.hamburger-nav {
-  display: block;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 6%;
-  left: 0px;
-  background-color: #879997;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  color: black;
-  width: 100%;
-  height: 110px;
-  
-}
-
-
-.hamburger-icon {
-    height: 40px;
-    display: none;
-  }
-  
-  .hamburger-check {
-    display: none;
-  }
-  
-  .hamburger-nav {
-    display: none;
-    overflow: hidden;
-  }
-  
-  .header-hamburger {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .header-mobile {
-    background-color: #879997f0;
-    width: 100%;
-  }
 
 
 /* Header */
 header {
-  width: 100%;
-  height: 100%;
-  border: none;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 .header-img {
-  width: 100%;
-  display: block;
+    width: 100%;
+    display: block;
 }
 
 .logo {
-  height: 110px;
-  width: auto;
+    height: 110px;
+    width: auto;
+}
+
+.header-top, .header-nav {
+    background-color: #879997f0;
 }
 
 .header-top {
-  background-color: #879997f0;
-  height: 130px;
+    height: 130px;
 }
 
 .header-nav {
-  background-color: #879997f0;
-  height: 90px;
+    height: 90px;
 }
 
 nav a {
+    font-size: 1.5rem;
+}
+
+nav a, a {
   text-decoration: none;
-  font-size: 1.5rem;
   color: black;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+
+/* Hamburger-menu */
+.header-hamburger, .hamburger-check, .hamburger-icon {
+    display: none;
+}
+
+#hamburger, .hamburger-nav {
+    display: none;
+    overflow: hidden;
+}
+
+.hamburger-nav {
+    font-size: 1rem;
+}
+
+.hamburger-icon {
+      height: 40px;
+}
+   
+.header-mobile {
+      background-color: #879997f0;
+      width: 100%;
+}
+
+#hamburger[type="checkbox"]:checked~.hamburger-nav {
+    width: 100%;
+    height: 110px; 
+    background-color: #879997;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 
 /* Text styling */
 /* Font sizing */
-h1 {
-  font-size: 2rem;
-  margin-top: 50px;
-  line-height: 0;
+h1, h2 {
+    font-size: 2rem;
+    line-height: 0;
 }
 
-h2 {
-  font-size: 2rem;
-  line-height: 0;
+h1 {
+    margin-top: 50px;
 }
 
 p {
-  font-size: 1.25rem;
-  margin: 5px;
+    font-size: 1.25rem;
+    margin: 5px;
 }
 
 .small, .small-bold, .small-jacket, .small-bold-jacket {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .small-bold, .small-bold-jacket, .bold {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .small-jacket {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .h2-medium {
-  font-size: 1.4rem;
-  margin-bottom: 20px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
 }
 
 .medium {
-  font-size: 1.1rem;
-  line-height: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
 }
 
 .big-bold {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
 }
 
 
 /* Text sections */
 .about-text {
-  max-width: 450px; 
+    max-width: 450px; 
 }
 
 
 /* Picture styling */
 /* logo appearing in header, newsletter-section and about-page */
 .header-logo, .logo-contact, .logo {
-  max-height: 110px;
-  filter: brightness(0%);
+    max-height: 110px;
+    filter: brightness(0%);
 }
 
 /* product pictures of jackets*/
 .img-jackets, .img-jackets-small {
-  border: 1px solid #879997f0;
-  border-radius: 5px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
+    border: 1px solid #879997f0;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
 }
 
 .img-jackets, .img-jackets-small {
-  max-height: 300px;
+    max-height: 300px;
 }
-
 
   
 /* Decorative pictures on home- and aboutpage*/
 .index-shop-img {
-  height: 100%;
-  max-height: 420px;
-  width: auto;
-  border-radius: 10px;
+    height: 100%;
+    max-height: 420px;
+    width: auto;
+    border-radius: 10px;
 }
 
 .img-about {
-  width: 100%;
-  max-width: 480px;
-  height: auto;
-  border-radius: 10px;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .index-shop-women-men {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+.index-shop-img {
+    margin-bottom: 10px;
 }
 
 
 /* Button styling */
-
 .CTA-shop {
-  width: 420px;
-  height: 46px;
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: black;
-  background-color: #f79f1bf0;
-  border-radius: 10px;
-  border: 2px solid #F79E1B;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
+    width: 420px;
+    height: 46px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    background-color: #f79f1bf0;
+    border-radius: 10px;
+    border: 2px solid #F79E1B;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
 }
 
 
 /* Newsletter styling */
 .line-newsletter {
-  border-bottom: 2px solid #879997f0;
-  margin-top: 80px;
-  margin-bottom: 20px;
-}
-
-.contact-text {
-  max-width: 480px;
-}
-
-.contact-icon {
-  max-height: 40px;
-}
-
-.contact-phone-mail {
-  width: 400px;
-  height: 180px;
-  outline: 1px solid #879997f0;
-  border-radius: 5px;
-}
-
-.contact-phone-mail, .contact-form {
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-  gap: 10px;
-}
-
-.contact-form {
-  width: 400px;
-  height: 500px;
-  outline: 1px solid #879997f0;
-  border-radius: 5px;
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
 
 .btn-signup {
-  font-size: 1rem;
-  width: 140px;
-  height: 40px;
-  background-color: #879997f0;
-  outline: 1px solid black;
-  border: none;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    width: 140px;
+    height: 42px;
+    background-color: #879997f0;
 }
 
 .newsletter-input {
-  font-size: 1rem;
-  width: 260px;
-  height: 40px;
-  background-color: #d9d9d9;
-  border: none;
-  outline: 1px solid black;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    width: 260px;
+    height: 40px;
+    background-color: #d9d9d9; 
 }
 
-.newsletter-form {
-  margin-top: 20px;
+.btn-signup, .newsletter-input {
+    font-size: 1rem;
+    border: none;
+    outline: 1px solid black;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.newsletter-text-form {
-  display: flex;
-  flex-direction: column;
+.email-label {
+    display: none;
 }
 
-.newsletter {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
+
+/* Contact */
+.contact-text {
+    max-width: 480px;
+}
+
+.contact-icon {
+    max-height: 40px;
+}
+
+.contact-form, .contact-phone-mail {
+    width: 400px;
+    outline: 1px solid #879997f0;
+    border-radius: 5px;
+}
+
+.contact-phone-mail {
+    height: 180px;
+}
+
+.contact-form {
+    height: 500px;
+}
+
+.contact-form-small {
+    width: 360px;
+    height: 26px;
+    margin-bottom: 10px;
+    outline: 1px solid #879997f0;
+}
+  
+textarea {
+    resize: none;
+    width: 360px;
+    height: 180px;
+    margin-bottom: 16px;
+    outline: 1px solid #879997f0;
+}
+
+textarea, input {
+    outline: none;
+}
+
+.contact-form-btn {
+    width: 360px;
+    height: 30px;
+    background-color: #879997f0;
+    outline: 1px solid #879997;
 }
 
 
 /* Footer */
 footer {
-  margin-top: 50px;
+    margin-top: 50px;
 }
 
 .footer-payment-methods {
-  height: 60px;
-  background-color: #f3f3f3;
+    height: 60px;
+    background-color: #f3f3f3;
 }
 
 .footer-nav-socialmedia {
-  height: 110px;
-  background-color: #879997f0;
-  width: 100%;
+    height: 110px;
+    background-color: #879997f0;
+    width: 100%;
 }
 
 .footer-nav {
-  list-style-type: none;
-  font-size: 1.25rem;
-  gap: 65px;
+    list-style-type: none;
+    font-size: 1.25rem;
+    gap: 65px;
 }
 
 .payment-logo {
-  height: 30px;
-  margin: 10px;
-  filter: brightness(0%);
+    filter: brightness(0%);
 }
 
 .about-logo {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 
-.sm-logo {
-  height: 30px;
-  margin: 10px;
+.sm-logo, .payment-logo {
+    height: 30px;
+    margin: 10px;
 }
-
-/* Styling Contact form */
-
-.contact-form-small {
-  width: 360px;
-  height: 26px;
-  margin-bottom: 10px;
-  outline: 1px solid #879997f0;
-}
-  
-textarea {
-  resize: none;
-  width: 360px;
-  height: 180px;
-  margin-bottom: 16px;
-  outline: 1px solid #879997f0;
-}
-
-textarea, input {
-  outline: none;
-}
-
-.contact-form-btn {
-  width: 360px;
-  height: 30px;
-  background-color: #879997f0;
-  outline: 1px solid #879997;
-}
-
-
-.index-shop-women-men {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.index-shop-img {
-  margin-bottom: 10px;
-}
-

@@ -46,6 +46,11 @@
         margin-left: 10px;
     }
 
+    nav a {
+        font-size: 1rem;
+    }
+
+
 /* General styling */
     .wrapper {
         max-width: 600px;
@@ -175,7 +180,7 @@
 
     .btn-signup {
         width: 90px;
-        height: 30px;
+        height: 32px;
     }
 
 

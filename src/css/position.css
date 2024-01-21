@@ -1,7 +1,6 @@
-/* Stylesheet for flexbox */
+/* Stylesheet for flexbox and positioning*/
 
 /* Header */
-
 .header-top {
   display: flex;
   justify-content: center;
@@ -14,6 +13,25 @@ nav {
   align-items: center;
   gap: 40px;
 }
+
+
+/* Hamburger-menu */
+.header-hamburger {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#hamburger[type="checkbox"]:checked~.hamburger-nav {
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 60px;
+  left: 0px;
+}
+
 
 /* Index */
 .index-shop-img {
@@ -29,6 +47,12 @@ nav {
   display: flex;
   justify-content: center;
   gap: 3rem;
+}
+
+.index-shop-women-men {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .index-jackets {
@@ -85,16 +109,33 @@ nav {
   gap: 16px;
 }
 
+.contact-phone-mail, .contact-form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  gap: 10px;
+}
+
 
 /* Newsletter */
-.newsletter {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-}
+
+  .newsletter {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .newsletter-text-form {
+    display: flex;
+    flex-direction: column;
+  }
 
 .newsletter-form {
   display: flex;
+  margin-top: 20px;
 }
 
 /* Footer */
