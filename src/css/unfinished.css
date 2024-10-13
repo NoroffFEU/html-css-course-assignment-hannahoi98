@@ -1,0 +1,106 @@
+/*  This page consist of started pages that i have not finished */
+/* Will use this code later for more pages in the project, but this is no a part of my delivery for the course assignment */
+
+
+/*  CSS for cart */
+.info-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .cart {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  
+  .shopping-cart {
+    display: flex;
+    justify-content: center;
+    outline: 1px solid #879997f0;
+    border-radius: 5px;
+  }
+  
+  .pp-jacket-cart {
+    max-height: 300px;
+    border: 1px solid #879997f0;
+    border-radius: 0.5rem;
+  }
+
+  /*  CSS for productpage */
+
+  .product-info-ppjacket {
+    max-width: 460px;
+  }
+
+  .img-precision-performance-jacket {
+    max-width: 500px;
+  }
+
+  .button-back {
+    height: 26px;
+  }
+
+  .CTA-checkout {
+    width: 200px;
+    height: 46px;
+  }
+
+  .product-select-size {
+    width: 200px;
+    font-size: 1.25rem;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .product-h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+  .product-ppjacket {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  }
+  
+  .product-info-pp-jacket {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .product-jackets {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Media Queries for product-page */
+  .product-pp-jacket {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-precision-performance-jacket {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+}
+
+.product-h1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.button-back {
+    font-size: 0.8rem;
+    height: 20px;
+    margin-bottom: 6px;
+}

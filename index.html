@@ -1,15 +1,148 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Example Title, replace me!</title>
-  <link rel="stylesheet" href="src/css/styles.css">
-</head>
-<body class="centered">
-  <div>
-    <img src="/assets/images/noroff-logo.png" alt="Noroff Logo">
-    <h1>Hello World!</h1>
-  </div>
-</body>
+    <head>
+        <title> Rainydays - Home </title>
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+        <link rel="manifest" href="./assets/images/site.webmanifest">
+        <link href="./src/css/styles.css" rel="stylesheet">
+        <link href="./src/css/position.css" rel="stylesheet">
+        <link href="./src/css/mediaqueries.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale:1.0">
+        <meta name="description" content="Explore the outdoors in style with Rainydays, your go-to webshop for high-performance outdoor jackets. Embrace the spirit of adventure as we push the comfort zone together. Discover a range of weather-resistant jackets designed for sports and nature enthusiasts. Elevate your outdoor experience with Rainydays – where fashion meets functionality. Gear up for the elements and step into a world of unparalleled comfort. Your next adventure starts here!">
+    </head> 
+<body>
+    <header>
+        <div class="header-top">
+            <img src="./assets/images/rainydays-logo.png" class="logo" alt="The logo for Rainydays with the text Rainydays - Pushing the comfort zone with the outline of mounatins in the back">
+
+        <div class="header-hamburger">
+            <label class="ham-btn" for="hamburger"><img src="./assets/images/hamburger.png" alt="Icon of a hamburger-icon that opens navigationmenu on mobile devices" class="hamburger-icon"></label>
+            <input id="hamburger" name="hambuger" type="checkbox" hidden>
+            <div class="hamburger-nav">
+                <nav class="header-hamburger-nav">
+                <a href="./index.html">Home</a>
+                <a href="./html/jackets.html">Jackets</a>
+                <a href="./html/about.html">About</a>
+                <a href="./html/contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+        </div>
+
+        <img src="./assets/images/header-img.jpg" class="header-img" alt="A picture of a person hiking on a rocky trail amidst majestic mountains">
+        <nav class="header-nav">
+            <a href="./index.html">Home</a>
+            <a href="./html/jackets.html">Jackets</a>
+            <a href="./html/about.html">About</a>
+            <a href="./html/contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+    <div class="wrapper">
+
+        <section>
+            <h1>This is Raindydays</h1>
+            <div class="line1"></div>
+            <p>Discover the epitome og durability with our jackets, crafted to withstand the unpredictable elements of any weather. Engineered for outdoor enthusiasts, these jackets seamlessly blend resilience with comfort, ensuring you stay protected during all your adventures. </p>
+            <p>Choose our jackets and get ready to push the comfort zone. </p>
+        </section>
+
+
+        <div class="index-shop-women-men">
+            <div class="index-shop-women">
+                <img src="./assets/images/shop-women.jpg"  class="index-shop-img" alt="A woman sitting on a rock with her backpack, enjoying the breathtaking view of mountains from the top.">
+                <a href="./html/jackets.html"><div class="CTA-shop">Shop Women</div></a>
+            </div>
+
+            <div class="index-shop-men">
+                <img src="./assets/images/shop-men.jpg"  class="index-shop-img" alt="A man that stands in front of a glistening glacier, outfitted with a backpack and a climbing equipment.">
+                <a href="./html/jackets.html"><div class="CTA-shop">Shop Men</div></a>
+            </div>
+        </div>
+
+        <section>
+            <h2>Explore new in</h2>
+            <div class="line1"></div>
+
+            <div class="index-jackets">
+                <a href="./html/jackets.html">
+                    <div class="jackets-with-price">
+                        <img src="./assets/images/rainydays-jacket4.jpg" class="img-jackets-small" alt="A insulated black jacket for outdoor activites with white details and a yellow logo">
+                        <p class="small-bold-jacket">Precision Performance Jacket</p>
+                        <p class="small-jacket">230 $</p>
+                    </div>
+                </a>
+
+                <a href="./html/jackets.html">
+                    <div class="jackets-with-price">
+                        <img src="./assets/images/rainydays-jacket5.jpg" class="img-jackets-small" alt="A lightweight gray jacket. Perfect for layering or on its own for a hike in mild weather">
+                        <p class="small-bold-jacket">Everyday Lightweight Jacket</p>
+                        <p class="small-jacket">160 $</p>
+                    </div>
+                </a>
+
+                <a href="./html/jackets.html">
+                    <div class="jackets-with-price">
+                        <img src="./assets/images/rainydays-jacket6.jpg" class="img-jackets-small" alt="A black winter jacket with grey details on the arms. The jacket has an adjustable belt and reflective details">
+                        <p class="small-bold-jacket">Explorer Glacier Jacket</p>
+                        <p class="small-jacket">255 $</p>
+                    </div>           
+                </a>     
+            </div>    
+
+            <div class="index-shop-all-btn">
+                <a href="./html/jackets.html"><div class="CTA-shop">Shop all jackets</div></a>
+            </div>
+        </section>
+
+        
+        <div class="line-newsletter"></div>
+        <div class="newsletter">
+            <div class="newsletter-text-form"> 
+                <div class="newsletter-text">
+                    <p class="small-bold">Ready for your next adventure?</p>
+                    <p class="small">Sign up for our newsletter and get 20% off your next purchase.</p>
+                </div>
+
+                <form class="newsletter-form">
+                    <label for="email" class="email-label">Email</label>
+                        <input class= newsletter-input type="email" id="email" name="email" placeholder="E-mail">
+                    <button class="btn-signup">Sign Up</button>
+                </form>
+            </div>
+
+        <div class="newsletter-logo">
+            <img src="./assets/images/rainydays-logo.png" class="logo" alt="The logo for Rainydays with the text Rainydays - Pushing the comfort zone with the outline of mounatins in the back">
+        </div>
+        </div>
+         
+    </div>
+    </main>
+    <footer>
+       <div class="footer-nav-socialmedia">
+            <nav class="footer-nav">
+                <a href="./index.html">Home</a>
+                <a href="./html/jackets.html">Jackets</a>
+                <a href="./html/about.html">About</a>
+                <a href="./html/contact.html">Contact</a>
+            </nav>
+
+            <div class="footer-socialmedia">
+                <img src="./assets/images/facebook-logo.png" class="sm-logo" alt="Logo for facebook">
+                <img src="./assets/images/instagram-logo.png" class="sm-logo" alt="Logo for instagram">
+                <img src="./assets/images/youtube-logo.png" class="sm-logo" alt="Logo for youtube">
+            </div>
+       </div>
+
+       <div class="footer-payment-methods">
+           <img src="./assets/images/cc-apple-pay.svg" class="payment-logo" alt="Logo for apple pay">
+           <img src="./assets/images/cc-mastercard.svg" class="payment-logo" alt="Logo for mastercard">
+           <img src="./assets/images/cc-visa.svg" class="payment-logo" alt="Logo for visa">
+           <img src="./assets/images/google-pay.svg" class="payment-logo"  alt="Logo for google pay">
+       </div>    
+    </footer>
+</body>  
 </html>

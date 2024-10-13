@@ -1,0 +1,176 @@
+/* Stylesheet for flexbox and positioning*/
+
+/* Header */
+.header-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+
+/* Hamburger-menu */
+.header-hamburger {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#hamburger[type="checkbox"]:checked~.hamburger-nav {
+  display: block;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 60px;
+  left: 0px;
+}
+
+
+/* Index */
+.index-shop-img {
+  margin-top: 20px;
+}
+
+.index-shop-btn {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.index-shop-img, .index-shop-btn {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.index-shop-women-men {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.index-jackets {
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-shop-all-btn {
+  display: flex;
+  justify-content: center;
+}
+
+/* Jackets */
+.jackets-shop-all {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+/* About */
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+/* Contact */
+.contact-form-input, .contact-customerservice {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-phone, .contact-mail {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.contact-phone-mail, .contact-form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  gap: 10px;
+}
+
+
+/* Newsletter */
+
+  .newsletter {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .newsletter-text-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+.newsletter-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer-payment-methods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav-socialmedia {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.product-shop-ppjacket {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
